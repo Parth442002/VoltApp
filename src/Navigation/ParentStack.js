@@ -16,7 +16,7 @@ const ParentStack = createStackNavigator();
 export default function Navigation(){
   return(
     <ParentStack.Navigator
-      initialRouteName='SplashScreen'
+      initialRouteName='OnBoardingStack'
       screenOptions={{
         headerShown:false,
       }}
