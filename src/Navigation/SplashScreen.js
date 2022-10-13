@@ -5,7 +5,7 @@ import LottieView from 'lottie-react-native';
 function SplashScreen({navigation}){
   useEffect(() => {
     const interval = setInterval(() => {
-      navigation.navigate("OnBoardingStack")
+      navigation.navigate("MainTabs")
     }, 3000);
 
     return () => clearInterval(interval);
